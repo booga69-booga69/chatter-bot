@@ -1,0 +1,8 @@
+# how to print something from the boat
+print('Hello, my name is bob!')
+
+# asking the user to answer a question to bot and bot responds
+print("So, what is your favorite movie?")
+movie_name=input()
+print("Great! I love " + movie_name + " too.")  
+
