@@ -6,3 +6,19 @@ print("So, what is your favorite movie?")
 movie_name=input()
 print("Great! I love " + movie_name + " too.")  
 
+# if and else statements
+print("Let's go to the movies.")
+print("What movie would you like to see?")
+movie_name = input()
+if movie_name == "WALL-E":
+  print("Great, let's go!")
+elif movie_name == "WALL-e": 
+  print("Great, let's go!")
+elif movie_name == "Wall e": 
+  print("Great, let's go!")
+elif movie_name == "wall e":
+  print("Great, let's go")
+else:
+  print("Actually, I need to polish my transistors.")
+  
+  
