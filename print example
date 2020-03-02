@@ -21,4 +21,12 @@ elif movie_name == "wall e":
 else:
   print("Actually, I need to polish my transistors.")
   
-  
+  # a loop about if it gets a certain respone, it'll say something else instead of repeating
+  answer = " "
+while answer != "WALL-E":
+  print("What movie do you want to watch?")
+  answer = input()
+print("That was my favorite movie of all time.")  
+print("I think I'll power down now.")
+
+
