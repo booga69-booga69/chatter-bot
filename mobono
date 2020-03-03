@@ -1,0 +1,15 @@
+print("Enter your name")
+name = input()
+print("Hello " + name + ", my name is Mobono")
+print("How are you currently doing?")
+mood = input()
+if mood == "good":
+   print("that's nice.")
+if mood == "normal":
+   print("better than being Oofed.")
+if mood == "great":
+   print("hey, that's amazing!")
+if mood == "bad":
+   print("well, that sucks. Do you need any help?")
+if mood  == "sad":
+    print("well, that sucks. Do you need any help") 
