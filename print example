@@ -1,11 +1,14 @@
+#Printing
 # how to print something from the boat
 print('Hello, my name is bob!')
 
+#User Input
 # asking the user to answer a question to bot and bot responds
 print("So, what is your favorite movie?")
 movie_name=input()
 print("Great! I love " + movie_name + " too.")  
 
+#Variables
 # if and else statements
 print("Let's go to the movies.")
 print("What movie would you like to see?")
@@ -21,6 +24,7 @@ elif movie_name == "wall e":
 else:
   print("Actually, I need to polish my transistors.")
   
+  #while loop
   # a loop about if it gets a certain respone, it'll say something else instead of repeating
   answer = " "
 while answer != "WALL-E":
