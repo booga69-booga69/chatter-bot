@@ -29,4 +29,14 @@ while answer != "WALL-E":
 print("That was my favorite movie of all time.")  
 print("I think I'll power down now.")
 
+# a loop with an if statement
+answer = " "
+while answer != "WALL-E":
+  if answer == "Transformers":
+    print("No, that movie is too scary.")
+    print("Let's watch a different one")
+  print("What movie do you want to watch?")
+  answer = input()
+print("That was my favorite movie of all time.")  
+print("I think I'll power down now.")
 
